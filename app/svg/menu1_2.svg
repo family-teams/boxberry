@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 98</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,31.0021074 C0,33.2100825 1.7837733,35 3.99789262,35 L31.0021074,35 C33.2100825,35 35,33.2162267 35,31.0021074 L35,3.99789262 C35,1.78991749 33.2162267,0 31.0021074,0 L3.99789262,0 C1.78991749,0 0,1.7837733 0,3.99789262 L0,31.0021074 Z" id="path-1"></path>
+    </defs>
+    <g id="Мой-профиль-(Информация-о-магазине-)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-57.000000, -90.000000)">
+        <g id="Group-78" transform="translate(57.000000, 29.000000)">
+            <g id="Group-98" transform="translate(1.000000, 62.000000)">
+                <g id="Rectangle-6" transform="translate(1.000000, 1.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#9fb3c3" xlink:href="#path-1"></use>
+                </g>
+                <path d="M17.9473684,0 L17.9473684,36" id="Stroke-4" stroke="#E7EAEF" stroke-width="2" stroke-linecap="round"></path>
+                <path d="M0.934568482,17.9473684 L36,17.9473684" id="Stroke-5" stroke="#E7EAEF" stroke-width="2" stroke-linecap="round"></path>
+                <path d="M24,9 L30,9" id="Line" stroke="#E7EAEF" stroke-width="2" stroke-linecap="round"></path>
+                <path d="M5.97355584,24.6315789 L11.9735558,24.6315789" id="Line" stroke="#E7EAEF" stroke-width="2" stroke-linecap="round"></path>
+                <path d="M5.97355584,28.4210526 L11.9735558,28.4210526" id="Line" stroke="#E7EAEF" stroke-width="2" stroke-linecap="round"></path>
+                <g id="Group-99" transform="translate(24.631579, 24.631579)" stroke="#E7EAEF" stroke-linecap="round" stroke-width="2">
+                    <path d="M4.24264069,0 L0,4.24264069" id="Stroke-12"></path>
+                    <path d="M0,0 L4.24264069,4.24264069" id="Stroke-13"></path>
+                </g>
+                <g id="Group-100" transform="translate(7.000000, 6.000000)" stroke="#E7EAEF" stroke-linecap="round" stroke-width="2">
+                    <path d="M0,2.94736842 L6,2.94736842" id="Line"></path>
+                    <path d="M2.94736842,0 L2.94736842,6" id="Line"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="22px" viewBox="0 0 21 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Мой-профиль-(Информация-о-магазине-)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-732.000000, -20.000000)">
+        <g id="Group-137" transform="translate(-1.000000, 0.000000)" stroke="#ed1651" stroke-width="2">
+            <g id="Group-4" transform="translate(734.000000, 21.000000)">
+                <path d="M7,20 L13,20 L13,19.7042841 C13,18.2199427 11.6791553,17 10,17 C8.31717934,17 7,18.2230545 7,19.7042841 L7,20 Z" id="Rectangle-14" transform="translate(9.945578, 18.465986) rotate(-180.000000) translate(-9.945578, -18.465986) "></path>
+                <path d="M3,15 L16,15 L16,9.86111111 C16,6.62116053 13.4069929,4 10.2131522,4 L8.78684779,4 C5.591352,4 3,6.62053438 3,9.86111111 L3,15 Z" id="Rectangle-20"></path>
+                <path d="M10,3 L10,0" id="Line" stroke-linecap="round"></path>
+                <path d="M0.36,15 L19,15" id="Line" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="26px" viewBox="0 0 24 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 16</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-2040.000000, -245.000000)">
+        <g id="Group-16" transform="translate(2041.000000, 246.000000)">
+            <g id="Group-2">
+                <g id="Group-15">
+                    <g id="Group-62">
+                        <path d="M19.1108383,23.0049107 C19.049624,24.1067681 18.1054862,25 17.0059397,25 L4.99406028,25 C3.8927712,25 2.95040984,24.1073772 2.88916171,23.0049107 L2.11083829,8.99508929 C2.04962399,7.8932319 2.8926228,7 3.99508929,7 L18.0049107,7 C19.1067681,7 19.9504098,7.8926228 19.8891617,8.99508929 L19.1108383,23.0049107 Z" id="Stroke-1" fill="#E9EBF0"></path>
+                        <path d="M11,12 L11,19.5" id="Line" stroke="#FCFCFC" stroke-width="2"></path>
+                        <path d="M6.55629554,19.7881376 L6,12" id="Stroke-1" stroke="#FCFCFC" stroke-width="2"></path>
+                        <path d="M15.5562955,19.7881376 L15,12" id="Stroke-1" stroke="#FCFCFC" stroke-width="2" transform="translate(15.500000, 15.894069) scale(-1, 1) translate(-15.500000, -15.894069) "></path>
+                        <path d="M0.56245237,6.07149493 L0.557954249,6.00257259 C0.485773318,4.89658229 1.47586343,4 2.77098061,4 L19.2289505,4 C20.5233522,4 21.5144237,4.89250824 21.4424653,5.99508929 L21.4424653,5.99508929" id="Stroke-1" stroke="#E7EAEF" stroke-width="2"></path>
+                        <path d="M7.51464657,1.9414137 C7.78269987,0.869200521 8.88655484,0 10.0059191,0 L12.9940809,0 C14.1019194,0 15.2169851,0.867940426 15.4853534,1.9414137 L16,4 L7,4 L7.51464657,1.9414137 Z" id="Rectangle-66" stroke="#E7EAEF" stroke-width="2"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

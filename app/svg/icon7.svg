@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 57</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-2447.000000, -240.000000)">
+        <g id="Group-13" transform="translate(2429.000000, 221.000000)">
+            <g id="Group-57" transform="translate(18.000000, 19.000000)">
+                <path d="M3.00793008,0 C1.34669617,0 0,1.34756687 0,2.99147251 L0,12.8140137 C0,14.4661584 0,17.146611 0,18.806745 L0,17.1946403 C0,18.8521898 0,21.5337187 0,23.1953634 L0,24.2210953 C0,25.8776537 0.965139829,26.2913797 2.15924862,25.1417619 L5.34075138,22.0787978 C6.53327146,20.9307095 8.84537632,20 10.4929058,20 L23.0070942,20 C24.6600304,20 26,18.656688 26,17.0057979 L26,2.99420208 C26,1.34054993 24.6568766,0 22.9920699,0 L3.00793008,0 Z" id="Fill-1" fill="#FFFFFF"></path>
+                <path d="M4,7 L22,7" id="Stroke-2" stroke="#EC174D" stroke-width="2"></path>
+                <path d="M4,13 L11,13" id="Stroke-2" stroke="#EC174D" stroke-width="2"></path>
+                <path d="M13,13 L22,13" id="Stroke-2" stroke="#EC174D" stroke-width="2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="17px" viewBox="0 0 28 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 21</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1809.000000, -249.000000)">
+        <g id="Group-21" transform="translate(1810.000000, 250.000000)" stroke="#687F91" stroke-width="2">
+            <path d="M0,5.49835664 C0,4.39483573 0.900176167,3.50025528 1.99201702,3.50025528 L9.00798298,3.50025528 C10.1081436,3.50025528 11,4.38696164 11,5.49835664 L11,9.50215393 C11,10.6056748 10.0998238,11.5002553 9.00798298,11.5002553 L1.99201702,11.5002553 C0.891856397,11.5002553 0,10.6135489 0,9.50215393 L0,5.49835664 Z" id="Rectangle-100" fill="#FFFFFF"></path>
+            <rect id="Rectangle-100" fill="#FFFFFF" x="8" y="0.5" width="18" height="14"></rect>
+            <path d="M13,7.5 L21,7.5" id="Line"></path>
+            <path d="M17,3.5 L17,11.5" id="Line"></path>
+        </g>
+    </g>
+</svg>

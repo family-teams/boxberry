@@ -1,0 +1,33 @@
+/* reset */
+$min-width: 320px; 
+$max-width: 100%;; 
+$base-bg: #fff; 
+$base-font-size: 12px; 
+$base-line-height: 1.38; 
+$base-font-family: 'Open Sans', sans-serif; 
+$custom-font-family: 'Open Sans', sans-serif; 
+$link-color: #ed1651;
+$default-transition:all 0.3s linear;
+
+/* main variables */
+
+//text, titles
+$text-color: #2c2c2c;
+$title-color: #2c2c2c;
+$title-font-family: $custom-font-family;
+
+$font-size-h1: 20px;
+$line-height-h1: 1.1;
+$font-size-h2: 18px;
+$line-height-h2:1.1;
+$font-size-h3: 16px;
+$line-height-h3: 1.4;
+
+$color-green: #a6ce39;
+$color-pink: #ed1651;
+$color-black: #323232;
+$color-dark: #687f90;
+$color-gray: #9fb3c3;
+$color-light: #d3dde5;
+$color-bord: #dde3e8;
+$bg-hov: #f7f9fa;

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Мой-профиль-(Доступы)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-613.000000, -318.000000)">
+        <g id="Group-19" transform="translate(328.000000, 316.000000)" stroke="#687F91" stroke-width="2">
+            <g id="Group-16" transform="translate(247.000000, 0.000000)">
+                <g id="Page-1" transform="translate(37.000000, 1.000000)">
+                    <g id="Group-11" transform="translate(9.098610, 8.547959) rotate(-45.000000) translate(-9.098610, -8.547959) translate(0.598610, 5.047959)">
+                        <path d="M6.12132034,3.29289322 C6.12132034,4.94978578 4.77821291,6.29289322 3.12132034,6.29289322 C1.46442778,6.29289322 0.121320344,4.94978578 0.121320344,3.29289322 C0.121320344,1.63600066 1.46442778,0.292893219 3.12132034,0.292893219 C4.77821291,0.292893219 6.12132034,1.63600066 6.12132034,3.29289322 Z" id="Stroke-1"></path>
+                        <path d="M17,3 L5.98931053,3" id="Stroke-3" stroke-linecap="round"></path>
+                        <path d="M15.4142136,6.0210714 L15.4142136,3" id="Stroke-5" stroke-linecap="round"></path>
+                        <path d="M11.7071068,6.29289322 L11.7071068,3.70710678" id="Stroke-5" stroke-linecap="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

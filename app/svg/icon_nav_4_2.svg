@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="29px" viewBox="0 0 30 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Мой-профиль-(Информация-о-магазине-)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-40.000000, -414.000000)">
+        <g id="Page-1" transform="translate(40.000000, 414.000000)">
+            <g id="Group-3">
+                <path d="M29.6878205,21.0860659 C29.6878205,22.187348 28.799323,23.0801136 27.6938203,23.0801136 L1.99400023,23.0801136 C0.892744311,23.0801136 0,22.1753458 0,21.0722799 L0,2.00783363 C0,0.898937736 0.89282595,0 2.00481388,0 L17.5891232,0 C18.6963513,0 19.9388145,0.825196649 20.3642984,1.84326254 L22.8686105,7.83539208 C23.2940693,8.85339787 24.5056243,9.91457556 25.5694962,10.2041837 L27.7572961,10.7997486 C28.8234953,11.0899903 29.6878205,12.2281416 29.6878205,13.3193254 L29.6878205,21.0860659 Z" id="Fill-1" fill="#d3dde5"></path>
+                <polyline id="Rectangle-21" stroke="#474747" stroke-width="2" stroke-linecap="round" points="21 13 11 13 11 3"></polyline>
+                <polyline id="Rectangle-21" stroke="#474747" stroke-width="2" stroke-linecap="round" transform="translate(7.000000, 8.000000) scale(-1, 1) translate(-7.000000, -8.000000) " points="11 13 3 13 3 3"></polyline>
+            </g>
+            <path d="M24,24 C24,26.209154 22.2091822,28 20.0000628,28 C17.7909435,28 16,26.209154 16,24 C16,21.790846 17.7909435,20 20.0000628,20 C22.2091822,20 24,21.790846 24,24" id="Fill-6" stroke="#474747" stroke-width="2" fill="#d3dde5"></path>
+            <path d="M11,24 C11,26.209154 9.20918215,28 7.00006283,28 C4.7909435,28 3,26.209154 3,24 C3,21.790846 4.7909435,20 7.00006283,20 C9.20918215,20 11,21.790846 11,24" id="Fill-6" stroke="#474747" stroke-width="2" fill="#d3dde5"></path>
+        </g>
+    </g>
+</svg>

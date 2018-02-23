@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 36</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-578.000000, -20.000000)">
+        <g id="Head" transform="translate(-12.000000, -1.000000)">
+            <g id="Group-36" transform="translate(590.000000, 21.000000)">
+                <path d="M9.5,18.5 C14.4705627,18.5 18.5,14.4705627 18.5,9.5 C18.5,4.52943725 14.4705627,0.5 9.5,0.5 C4.52943725,0.5 0.5,4.52943725 0.5,9.5 C0.5,14.4705627 4.52943725,18.5 9.5,18.5 Z" id="Oval" stroke="#323232"></path>
+                <g id="Group-2" transform="translate(8.000000, 4.000000)" fill="#323232">
+                    <circle id="Oval-2" cx="1.5" cy="1.5" r="1.5"></circle>
+                    <path d="M1.5,6.5 L1.5,9.5" id="Line" stroke="#323232" stroke-width="3" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
