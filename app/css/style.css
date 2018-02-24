@@ -1260,4 +1260,35 @@ input:-ms-input-placeholder {   color:#fff;}
   .m-hid-sm { display: none; }
   form .btn { width: 100%; } }
 
+/*------------------last-css------------------*/
+.infocenter_cont { position: relative; }
+
+.infocenter_cont:after { content: ''; display: block; clear: both; }
+
+.tabs { position: relative; }
+
+.tabs li { display: inline-block; }
+
+.tabs li a { display: block; }
+
+.tabs:after { display: block; content: ''; width: 100%; height: 2px; background: #eaeff3; }
+
+.ins_modul_block { position: relative; }
+
+.ins_modul_block:after { display: block; clear: both; content: ''; }
+
+.modules_tabs { display: block; clear: both; }
+
+.modules_tabs:after { display: none; }
+
+.ins_modul { max-width: 410px; float: left; }
+
+.ins_modul_line { padding: 16px 0; border-bottom: 1px solid #d3dde5; }
+
+.ins_modul_line:last-child { border-bottom-color: transparent; }
+
+.ins_modul_ico { float: left; width: 160px; }
+
+.ins_modul_cont { overflow: hidden; }
+
 /*# sourceMappingURL=style.css.map */
