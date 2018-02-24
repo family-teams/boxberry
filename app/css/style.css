@@ -41,17 +41,15 @@ input[type=submit], input[type=button], button { -webkit-appearance: none; outli
 /* checkbox */
 /* radio */
 /* select */
-.jq-checkbox { top: -2px; width: 20px; height: 20px; border: 2px solid #fff; -webkit-border-radius: 0; border-radius: 0; background: transparent; -webkit-box-shadow: none; box-shadow: none; vertical-align: middle; cursor: pointer; margin-right: 10px; }
+.jq-checkbox { top: -2px; width: 20px; height: 20px; border: 1px solid #687f91; -webkit-border-radius: 0; border-radius: 0; vertical-align: middle; cursor: pointer; margin-right: 10px; background-color: #ffffff; -webkit-box-shadow: inset 4px 4px 0 0 #e7eaef; box-shadow: inset 4px 4px 0 0 #e7eaef; }
 
-.jq-checkbox.checked .jq-checkbox__div { width: 12px; height: 12px; margin: 3px 0 0 2px; background: transparent; -webkit-box-shadow: none; box-shadow: none; position: relative; }
-
-.jq-checkbox.checked .jq-checkbox__div:after { content: ''; width: 12px; height: 6px; -webkit-transform: rotate(-45deg); -ms-transform: rotate(-45deg); transform: rotate(-45deg); display: block; border-left: 2px solid #fff; border-bottom: 2px solid #fff; }
+.jq-checkbox.checked .jq-checkbox__div { width: 12px; height: 12px; margin: 2.5px 0 0 2.5px; background-color: #a6ce39; -webkit-box-shadow: none; box-shadow: none; position: relative; }
 
 .jq-checkbox.disabled { opacity: 0.5; }
 
-.jq-radio { width: 12px; height: 12px; border: 1px solid #C3C3C3; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; background: #F6F6F6; box-shadow: 0 0 0 0px transparent; -moz-box-shadow: 0 0 0 0px transparent; -webkit-box-shadow: 0 0 0 0px transparent; vertical-align: middle; cursor: pointer; }
+.jq-radio { top: -2px; width: 20px; height: 20px; margin-right: 10px; border: 1px solid #687f91; background-color: #ffffff; -webkit-box-shadow: inset 4px 4px 0 0 #e7eaef; box-shadow: inset 4px 4px 0 0 #e7eaef; -webkit-border-radius: 50%; border-radius: 50%; cursor: pointer; position: relative; vertical-align: middle; }
 
-.jq-radio.checked .jq-radio__div { width: 6px; height: 6px; margin: 3px 0 0 3px; background: #666; }
+.jq-radio.checked .jq-radio__div { width: 8px; height: 8px; margin: 5px 0 0 5px; -webkit-border-radius: 50%; border-radius: 50%; background-color: #a6ce39; position: relative; }
 
 .jq-radio.disabled { opacity: 0.5; }
 
@@ -1320,6 +1318,56 @@ input:-ms-input-placeholder {   color:#fff;}
 .modules_tabs_sel { display: none; }
 
 .tabs_sel { display: none; }
+
+.insr_block { position: relative; background-color: #f8fafb; border: 1px solid #dde3e8; padding: 0 9px; max-width: 666px; }
+
+.insr_block:after { display: block; clear: both; content: ''; }
+
+.insr_block_line { position: relative; border-bottom: 1px solid #dde3e8; padding: 10px 0; }
+
+.insr_block_line:last-child { border-bottom: none; }
+
+.insr_block_line:after { display: block; clear: both; content: ''; }
+
+.insr_title { float: left; width: 60%; font-size: 11px; }
+
+.insr_title span { font-weight: bold; }
+
+.insr_link { float: left; width: 40%; }
+
+.insr_link a { display: inline-block; font-size: 11px; color: #687f91; position: relative; text-decoration: none; border-bottom: 1px dashed #687f91; }
+
+.block_itabs { position: relative; }
+
+.block_itabs:after { display: block; clear: both; content: ''; }
+
+.calc_block { position: relative; border-bottom: 1px solid #dde3e8; padding: 26px 19px 10px; }
+
+.calc_block:after { display: block; clear: both; content: ''; }
+
+.calc_block h2 { font-size: 16px; }
+
+.calc_cols { position: relative; }
+
+.calc_cols:after { display: block; clear: both; content: ''; }
+
+.calc_col { float: left; width: 45%; margin-left: 1%; }
+
+.calc_col:nth-child(2n+1) { margin-left: 0; }
+
+.c_options_tabel { position: relative; font-size: 11px; font-weight: 400; width: 100%; }
+
+.options1_block { position: relative; }
+
+.check_blocks { position: relative; }
+
+.check_block label { font-size: 11px; font-weight: 400; cursor: pointer; }
+
+.days_block_txt { font-size: 11px; }
+
+.radios_block { position: relative; }
+
+.radios_block label { font-size: 11px; font-weight: 400; cursor: pointer; }
 
 /*-----------------------------------------------------------------------------*/
 @media screen and (max-width: 767px) { .cms_left_block { max-width: 100%; float: none; }

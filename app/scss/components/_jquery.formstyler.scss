@@ -62,25 +62,24 @@ $dropdown-item-disbled-bg:none;
 
 .jq-checkbox {
 	top: -2px;
-	width: 20px;
-	height: 20px;
-	border:2px solid #fff;
+	width:20px;
+	height:20px;
+	border:1px solid#687f91;
 	border-radius:0;
-	background: transparent;
-	box-shadow: none;
-	vertical-align: middle;
-	cursor: pointer;
-	    margin-right: 10px;
+	vertical-align:middle;
+	cursor:pointer;
+	margin-right:10px;
+	background-color:#ffffff;
+  	box-shadow:inset 4px 4px 0 0 #e7eaef;
 
 }
 .jq-checkbox.checked .jq-checkbox__div {
-	width: 12px;
-	height: 12px;
-	margin: 3px 0 0 2px;
-	background:transparent;
-	box-shadow:none;
-	position: relative;
-	&:after{content:''; width: 12px; height: 6px; transform: rotate(-45deg); display: block; border-left:2px solid #fff; border-bottom:2px solid #fff;}
+	width:12px;
+	height:12px;
+	margin: 2.5px 0 0 2.5px;
+	background-color:#a6ce39;
+	box-shadow:none; 
+	position:relative;
 }
 .jq-checkbox.focused {
 	
@@ -91,24 +90,26 @@ $dropdown-item-disbled-bg:none;
 
 
 .jq-radio {
-	width: 12px;
-	height: 12px;
-	border: $radio-border-width solid $radio-border-color;
-	border-radius: $radio-border-radius;
-	-moz-border-radius: $radio-border-radius;
-	-webkit-border-radius: $radio-border-radius;
-	background: $radio-bg;
-	box-shadow: $radio-shadow;
-	-moz-box-shadow: $radio-shadow;
-	-webkit-box-shadow: $radio-shadow;
-	vertical-align: middle;
+	top:-2px;
+	width: 20px;
+	height: 20px;
+	margin-right:10px;
+	border:1px solid#687f91;
+	background-color:#ffffff;
+	box-shadow:inset 4px 4px 0 0 #e7eaef;
+	border-radius: 50%;
 	cursor: pointer;
+	position: relative;
+	vertical-align:middle;
 }
 .jq-radio.checked .jq-radio__div {
-	width: 6px;
-	height: 6px;
-	margin: 3px 0 0 3px;
-	background: $radio-checked-bg;
+	
+	width:8px;
+	height:8px;
+	margin:5px 0 0 5px;
+	border-radius:50%;
+	background-color:#a6ce39;
+	position:relative;
 }
 .jq-radio.disabled {	opacity: $radio-disabled-opacity;	}
 .jq-file {

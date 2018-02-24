@@ -34,7 +34,7 @@ $(function(){
 	/* placeholder*/
 
 	//
-	$('select').styler();
+	$('select, input[type="checkbox"], input[type="radio"]').styler();
 
     //cont_tabs
     $('.widg_pane:first-child').addClass('active');
