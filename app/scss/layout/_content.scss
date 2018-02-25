@@ -689,8 +689,36 @@ input:-ms-input-placeholder {   color:#fff;}
 	
 }
 .c_options_tabel{position:relative; font-size: 11px; font-weight:400; width:100%;
-	td{font-size:11px;}
+	td{}
+	tr{}
+	.td-name {}
+	.td-num {}
 }
+/*------------------------------------------------------------------------------------------------*/
+.c_options_table {width: 100%; margin-bottom: 0px;       margin-top: 0px; 
+	.tr{ width:100%;}
+	.td {height: 40px;color: #4e4e4e;     vertical-align:middle; white-space:nowrap; font-size:11px; padding-top:4px;position:relative;z-index:1; display:table-cell;transition:$default-transition;
+		&:first-child:before {content:'';z-index: 0;left: -10px;width: 10px;top: 0;height: 100%; position: absolute;transition:$default-transition;}
+		&:last-child:before {content:'';z-index: 0;right: -10px;width: 10px;top: 0;height: 100%; position: absolute;transition:$default-transition;}
+	}      
+	.td-name {width: 70%;}   
+	.td-num {min-width:75px; width: 30%;}
+	.tr + .tr {border-top:1px solid $color-bord;}
+	.td-hid {white-space: nowrap;position: relative; overflow: hidden; padding-right: 10px;margin-right: 7px; transition:$default-transition;
+		&:after {content:'';position: absolute;top:0;bottom: 0;right: 0; width: 30px; 
+			background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #ffffff);
+			background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0), #ffffff);
+			background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff);}
+	}
+	.tr:hover {		
+		.td {position: relative; background: $bg-hov;
+			&:first-child:before {background: $bg-hov;}
+			&:last-child:before {background: $bg-hov;}
+		}   
+		.td-hid {color:$color-dark;}
+	}
+}
+/*---------------------------------------------------------------------------------------------------------*/
 .options1_block{position:relative; margin-top: 8px;}
 .check_blocks{position:relative;     margin-bottom: 18px;}
 .check_block{    margin-bottom:10px;  clear: both;
@@ -728,6 +756,29 @@ input:-ms-input-placeholder {   color:#fff;}
 .min_max_block{    margin-bottom: 24px;  margin-top: -2px;
 	.check_block{    margin-bottom: 8px;}
 }
+
+.questions_search{position:relative; max-width:447px; height:40px; border:1px solid #9fb3c3;     margin-top: 35px;     margin-bottom: 30px;
+	&:after{display:block; clear:both; content:'';}
+	.search-btn{width:31px; height:38px; position:absolute; top:0; right:0; left:auto;}
+}
+.quest_input_search{width:100%; height:38px; border:none; outline:none; font-size:11px; padding:4px 31px 4px 9px;}
+
+.quest_accord{position:relative; max-width:446px;}
+.quest_accord_item{border-bottom:1px solid #e7eaef;     margin-bottom: -2px;
+	&:last-child{border-bottom:none;}
+}
+.quest_accord_title{position:relative; display:block; cursor:pointer; font-size:13px; font-weight:400; padding: 11px 10px;
+	.icon-arr-down{position:absolute; top:50%; right: 12px; transform:translateY(-50%);}
+}
+.quest_accord_in{font-size:12px; color:#000; line-height:1.5; display:none; padding: 1px 5px 15px 10px;
+	p{padding:0; margin:0;}
+}
+.quest_accord_item.active{
+	.quest_accord_title{font-weight:bold;
+		.icon-arr-down{transform:rotate(-180deg) translateY(40%);}
+	}
+	.quest_accord_in{display:block;}
+}
 /*-----------------------------------------------------------------------------*/
 
 @media screen and (max-height: 690px) {
@@ -758,6 +809,10 @@ input:-ms-input-placeholder {   color:#fff;}
 	.modules_tabs_sel{display: block;}
 	.cms_left_block h2{    line-height: 1.2;}
 	.infocenter_cont_mob{background:#ffffff;     padding: 21px 10px 0; margin-left: -10px; margin-right: -10px;}
+	.quest_accord{    padding-bottom: 11px; max-width:100%;}
+	.quest_accord_title{border-top: 1px solid #e7eaef; border-bottom: 1px solid #e7eaef;  }
+	.quest_accord_item{border:none; margin-bottom:-1px; }
+	.questions_search{max-width: 100%;}
 
 
 	
@@ -774,6 +829,15 @@ input:-ms-input-placeholder {   color:#fff;}
 	}
 	.infocenter_cont h1{padding-bottom: 11px;}
 	.integ_opport_dec{    margin-bottom: 27px;}
+
+	.questions_search{margin-top:20px; margin-bottom:39px;}
+	
+	.quest_accord_title{   font-size: 11px; padding: 11.5px 0px;}
+	.quest_accord_item.active{
+		.quest_accord_title{font-weight: 400;}
+	}
+	.quest_accord_in{    padding: 11px 5px 12px 0px;     line-height: 1.7;     font-size: 11px;}
+	
 
 }
 

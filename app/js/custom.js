@@ -224,6 +224,10 @@ $(function(){
 	//
 	svg4everybody({});
 
+	$('.quest_accord_title').on('click', function(){
+		$(this).parent().toggleClass('active');
+	});
+
 });
 
 //
