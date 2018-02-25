@@ -794,6 +794,31 @@ input:-ms-input-placeholder {   color:#fff;}
 		&:hover{border-color:#687f91;}
 	}
 }
+
+.back_link{position:relative; margin-top: -26px;     margin-left: 4px; margin-bottom: 8px;
+	.icon-arr-down{position:relative;     margin-right: 2px;
+		&:before{    transform: rotate(135deg); width:8px; height:8px;     margin-top: -2px;}
+	}
+	a{ position:relative; font-size: 11px; color:#687f91;}
+}
+.one_script_block{position:relative;
+	&:after{display:block; clear:both; content:'';}
+	h1{font-size: 20px; border-bottom:1px solid #d3dde5; padding-bottom:14px; margin-bottom:7px;     padding-left: 2px;}
+}
+.one_script_items{position:relative;     max-width: 540px;
+	&:after{display:block; clear:both; content:'';}
+}
+.one_script_item{position:relative;  padding-left: 2px;      margin-bottom: 17px;
+	h2{font-size: 16px;     margin-bottom: -5px;  }
+}
+.one_script_txt{font-size: 13px;    margin-bottom: 9px;   line-height: 1.6;
+	p{padding: 0; margin: 0;  margin-bottom: 6px;}
+}
+.full_link{
+	a{display:inline-block; font-size: 11px; border-bottom:1px dotted #cacaca; color: #2c2c2c;
+		&:hover{border-bottom:transparent;}
+	}
+}
 /*-----------------------------------------------------------------------------*/
 
 @media screen and (max-height: 690px) {
@@ -830,6 +855,18 @@ input:-ms-input-placeholder {   color:#fff;}
 	.questions_search{max-width: 100%;}
 
 	.scripts_block{float: none; width:100%; margin-left: 0;}
+
+	.back_link{margin-bottom: 12px;    margin-top: -21px; height: 40px; background-color: #e7eaef; margin-left: -10px; margin-right: -10px;   padding: 11px 13px;
+		.icon-arr-down{
+			&:before{width:10px; height:10px;}
+		}
+	}
+	.infocenter_cont .one_script_block h1{padding-left: 0px; border-bottom:none;       margin-bottom: 0px;  padding-right: 24px;     padding-bottom: 0px;}
+	.one_script_item{    padding-left: 0px;     padding-right: 21px;     margin-bottom: 16px;}
+	.one_script_item h2{      line-height: 1.2;  padding-right: 3px;}
+	.one_script_txt p{    margin-bottom: 10px;}
+	.one_script_items{    padding-bottom: 11px;}
+
 
 
 	
