@@ -1631,6 +1631,44 @@ input:-ms-input-placeholder {   color:#fff;}
 
 .notification_top .notif_sel { margin-bottom: 10px; }
 
+.contacts_block { position: relative; max-width: 406px; padding-top: 2px; }
+
+.contacts_block:after { display: block; clear: both; content: ''; }
+
+.contact_block { position: relative; border-bottom: 2px solid #eaeff3; padding-bottom: 20px; margin-bottom: 8px; }
+
+.contact_block:after { display: block; clear: both; content: ''; }
+
+.contact_block:last-child { border-bottom: none; }
+
+.contact_block h2 { font-size: 16px; margin-bottom: 3px; }
+
+.contact_athor { overflow: hidden; }
+
+.contact_athor p { padding: 0; margin: 0; }
+
+.contact_athor_ico { float: left; overflow: hidden; margin-right: 13px; width: 50px; height: 50px; -webkit-border-radius: 50%; border-radius: 50%; position: relative; }
+
+.contact_athor_ico img { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+
+.contact_athor_inf { overflow: hidden; padding-top: 7px; }
+
+.contact_block_lines { margin-top: -5px; margin-bottom: -15px; }
+
+.contact_block_line { overflow: hidden; font-size: 12px; margin-bottom: 14px; }
+
+.contact_block_line h3 { padding: 0; margin: 0; font-weight: bold; font-size: 12px; }
+
+.contact_block_line p { padding: 0; margin: 0; }
+
+.c_inf { font-style: italic; font-size: 12px; color: #4e4e4e; line-height: 1.45; margin-top: -6px; margin-bottom: 20px; }
+
+.contacts_form { max-width: 331px; }
+
+.contacts_form textarea { height: 80px; resize: none; }
+
+.contacts_form .btn { width: 100%; height: 50px; font-weight: bold; line-height: 50px; }
+
 /*-----------------------------------------------------------------------------*/
 @media screen and (max-width: 767px) { .cms_left_block { max-width: 100%; float: none; }
   .cms_right_block { margin: 0; padding: 0; }
@@ -1673,7 +1711,12 @@ input:-ms-input-placeholder {   color:#fff;}
   .notification_line_ico { margin-right: 8px; margin-top: 10px; }
   .notification_line_title a { line-height: 1.3; }
   .notification_line .date { margin-bottom: 2px; }
-  .notification_line { margin-bottom: 18px; } }
+  .notification_line { margin-bottom: 18px; }
+  .contacts_block { padding-top: 0; margin-top: -2px; }
+  .contact_block h2 { margin-bottom: -3px; }
+  .contact_block_lines { margin-top: 0px; margin-bottom: -4px; }
+  .c_inf { margin-top: -3px; }
+  .contacts_form textarea { height: 90px; } }
 
 @media screen and (max-width: 400px) { .ins_modul_lines { margin-bottom: 18px; }
   .ins_modul_line { display: block; height: auto; border-bottom: none; margin-bottom: 9px; }
