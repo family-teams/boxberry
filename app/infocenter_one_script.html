@@ -14,7 +14,7 @@
 	
 	
 </head>
-<body class="loaded ">							
+<body class="loaded">							
 <!-- BEGIN BODY -->
 <div class="main-wrapper">
 	<nav class="otpr-nav">
@@ -52,58 +52,30 @@
 		<div class="wrapper">
 			<div class="widg">
 				<div class="infocenter_cont infocenter_cont_mob">
-					<h1>Инфоцентр «Boxberry»</h1>
-					<ul class="tabs">
-						<li class="active"><a href="#">Контакты boxberry</a></li>
-						<li><a href="#">Частые вопросы</a></li>
-						<li><a href="#">Интеграция</a></li>
-						<li><a href="#">Новости<span>1</span></a></li>
-						<li ><a href="#">Уведомления<span>10</span></a></li>
-					</ul>
-					<div class="tabs_sel"><select><option>Контакты boxberry</option><option>Частые вопросы</option><option>Интеграция</option><option>Новости</option><option>Уведомления</option></select></div>
-					<div class="cms_block_cont">
-						<div class="contacts_block">
-							<div class="contact_block">
-								<h2>Ваш персональный менеджер</h2>
-								<div class="contact_athor">
-									<div class="contact_athor_ico"><img src="img/img1000.jpg" alt=""/></div>
-									<div class="contact_athor_inf">
-										<p>Андреев Александр Сергеевич</p>
-										<p>+7 950 650 78 65</p>
-									</div>
-								</div>
+					<div class="back_link"><i class="icon-arr-down"></i><a href="#">Все сценарии</a></div>
+					<div class="one_cont_block">
+						<h1>Чтобы отправить посылку:</h1>
+						<div class="one_script_items">
+							<div class="one_script_item">
+								<h2>Шаг №1: Создать посылку методом&nbsp;—ParselCreate</h2>
+								<div class="one_script_txt"><p>Данный метод позволяет создать / обновить посылку в Личном кабинете. В метод необходимо передать кодированный в JSON массив методом POST. Строение и описание массива смотрите ниже. В случае успешного завершения метод вернет JSON кодированный массив содержащий присвоенный идентификатор посылки (трекинг-код), ссылку на файл печати этикеток. Кодировка передаваемых и полученых данных строго UTF8!</p></div>
+								<div class="full_link"><a href="#">Полное описание метода</a></div>
 							</div>
-							<div class="contact_block">
-								<h2>Контакты «Boxberry»</h2>
-								<div class="contact_block_lines">
-								<div class="contact_block_line">
-									<h3>Телефон круглосуточной поддержки</h3>
-									<p>8-800-700-54-30</p>
+							<div class="one_script_item">
+								<h2>Шаг №2: Получить ссылку&nbsp;на файл этикеток—ParselCheck</h2>
+								<div class="one_script_txt">
+									<p>Позволяет получить ссылку на файл печати этикеток, список штрих-кодов коробок в посылке через запятую (,), список штрих-кодов выгруженных коробок в посылке через запятую (,) . Обязательно наличие параметра (код отслеживания заказа).</p>
+									<p>Внимание! сервис работает только с посылками созданными в api.boxberry.de</p>
 								</div>
-								<div class="contact_block_line">
-									<h3>Электронная почта</h3>
-									<p>online-k@boxberry.ru</p>
-								</div>
-								<div class="contact_block_line">
-									<h3>Оставить отзыв</h3>
-									<p>obr-sv@boxberry.ru</p>
-								</div>
-								</div>
+								<div class="full_link"><a href="#">Полное описание метода</a></div>
 							</div>
-							<div class="contact_block">
-								<h2>Поделитесь мнением</h2>
-								<div class="c_inf">Мы хотим стать лучше для вас и знаем, что вы тоже заинтересованы в этом. Есть способ сделать обмен мнениями полезным и интересным — поделитесь идеей.</div>
-								<div class="contacts_form">
-									<form>
-										<div class="form-row">
-											<input type="text" class="t-inp" placeholder="Тема"/>
-										</div>
-										<div class="form-row">
-											<textarea placeholder="Вопрос"></textarea>
-										</div>
-										<input type="submit" class="btn" value="Отправить"/>
-									</form>
+							<div class="one_script_item">
+								<h2>Шаг №3: Соформировать акт&nbsp;—ParselSend</h2>
+								<div class="one_script_txt">
+									<p>Формирует акт передачи посылок в boxberry. Обязательно наличие параметра (строки содержащей коды отслеживания заказов).</p>
+									<p>Внимание! сервис работает только с посылками созданными через API ЛК</p>
 								</div>
+								<div class="full_link"><a href="#">Полное описание метода</a></div>
 							</div>
 						</div>
 					</div>
@@ -119,7 +91,7 @@
 		<div class="mobile-button"><span></span></div>
 		<div class="mobile-button-plus"><span></span></div>
 		<div class="header_user">
-			<div class="header_user_opener">p
+			<div class="header_user_opener">
 				<div class="header_user_ava ava-circ"><img src="img/ava1.jpg" alt=""/></div>
 				<div class="header_user_name">ООО Центр современных технологий</div>
 				<i class="icon-arr-down"></i>

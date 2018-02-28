@@ -14,7 +14,7 @@
 	
 	
 </head>
-<body class="loaded ">							
+<body class="loaded">							
 <!-- BEGIN BODY -->
 <div class="main-wrapper">
 	<nav class="otpr-nav">
@@ -52,44 +52,198 @@
 		<div class="wrapper">
 			<div class="widg">
 				<div class="infocenter_cont infocenter_cont_mob">
-					<h1>Инфоцентр «Boxberry»</h1>
-					<ul class="tabs">
-						<li><a href="#">Контакты boxberry</a></li>
-						<li><a href="#">Частые вопросы</a></li>
-						<li class="active"><a href="#">Интеграция</a></li>
-						<li><a href="#">Новости<span>1</span></a></li>
-						<li><a href="#">Уведомления<span>10</span></a></li>
-					</ul>
-					<div class="tabs_sel"><select><option>Контакты boxberry</option><option>Частые вопросы</option><option>Интеграция</option><option>Новости</option><option>Уведомления</option></select></div>
-					<div class="cms_block_cont">
-						<ul class="tabs modules_tabs">
-							<li><a href="#">Сценарий</a></li>
-							<li><a href="#">Методы API</a></li>
-							<li><a href="#">Настройка виджетов</a></li>
-							<li class="active"><a href="#">Модули для CSM</a></li>
-						</ul>
-						<div class="modules_tabs_sel"><select><option>Сценарий</option><option>Методы API</option><option>Настройка виджетов</option><option>Модули для CSM</option></select></div>
-						<div class="cms_left_block">
-							<h2>Установите на свой сайт и&nbsp;работайте с&nbsp;комфортом</h2>
-							<div class="ins_modul_lines">
-								<div class="ins_modul_line"><div class="ins_modul_ico"><img src="img/partner1.jpg" alt=""/></div><div class="ins_modul_cont">Модуль для CMS Bitrix (v.2.2)</div></div>
-								<div class="ins_modul_line"><div class="ins_modul_ico"><img src="img/partner2.jpg" alt=""/></div><div class="ins_modul_cont">Приложение для CMS InSales</div></div>
-								<div class="ins_modul_line"><div class="ins_modul_ico"><img src="img/partner3.jpg" alt=""/></div><div class="ins_modul_cont">Модуль для CMS MODX</div></div>
-								<div class="ins_modul_line"><div class="ins_modul_ico"><img src="img/partner4.jpg" alt=""/></div><div class="ins_modul_cont">Модуль для CMS Umi</div></div>
-								<div class="ins_modul_line"><div class="ins_modul_ico"><img src="img/partner5.jpg" alt=""/></div><div class="ins_modul_cont">Интеграция LeadVertex c Boxberry</div></div>
-								<div class="ins_modul_line"><div class="ins_modul_ico"><img src="img/partner6.jpg" alt=""/></div><div class="ins_modul_cont">Модуль для CMS WordPress</div></div>
-								<div class="ins_modul_line"><div class="ins_modul_ico"><img src="img/partner7.jpg" alt=""/></div><div class="ins_modul_cont">Модуль для платформы Ecwid</div></div>
-								<div class="ins_modul_line"><div class="ins_modul_ico"><img src="img/partner8.jpg" alt=""/></div><div class="ins_modul_cont">Модуль для платформы Sellios</div></div>
-								<div class="ins_modul_line"><div class="ins_modul_ico"><img src="img/partner9.jpg" alt=""/></div><div class="ins_modul_cont">Модуль для CMS Joomla</div></div>
-								<div class="ins_modul_line"><div class="ins_modul_ico"><img src="img/partner10.jpg" alt=""/></div><div class="ins_modul_cont">Интеграция ApiShip c Boxberry</div></div>
-								<div class="ins_modul_line"><div class="ins_modul_ico"><img src="img/partner11.jpg" alt=""/></div><div class="ins_modul_cont">Интеграция retailCRM c Boxberry</div></div>
+					<div class="back_link"><i class="icon-arr-down"></i><a href="#">Вернуться во все методы</a></div>
+					<div class="one_cont_block">
+						<h1 class="spec_h1">ListCities</h1>
+						<div class="method_block_cont">
+							<div class="method_l_info">Метод позволяет получить список городов, в которых есть пункты выдачи заказов Boxberry.</div>
+							<div class="j_block">
+								<h2>JSON</h2>
+								<div class="j_block_lines">
+									<div class="j_block_line"><div class="j_name">Ваш API token:</div><div class="j_link"><a href="#">Скопировать</a></div><div class="j_cont">10000.rbpqbafb</div></div>
+									<div class="j_block_line"><div class="j_name">URL:</div><div class="j_link"><a href="#">Скопировать</a></div><div class="j_cont"><a href="#">http://api.boxberry.de/json.php?token=10000.rbpqbafb&method=ListCities</a>></div></div>
+								</div>
 							</div>
-						</div>
-						<div class="cms_right_block">
-							<div class="integ_opport">
-								<h3>Описание возможностей</h3>
-								<div class="integ_opport_dec">Перейти на сайт Boxberry чтобы ознакомится с возможностями интеграции</div>
-								<button class="btn">Перейти</button>
+							<div class="j_block">
+								<h2>SOAP</h2>
+								<div class="j_block_lines">
+									<div class="j_block_line"><div class="j_name">WSDL URL: </div><div class="j_link"><a href="#">Скопировать</a></div><div class="j_cont"><a href="#">http://api.boxberry.de/__soap/1c_public.php?wsdl</a></div></div>
+								</div>
+							</div>
+							<div class="method_tables">
+								<div class="method_table_block">
+									<h3>Входные параметры (для JSON API передаются в GET  параметрах запроса):</h3>
+									<table class="table method_table">
+										<tr>
+											<th>Параметр</th>
+											<th>Тип</th>
+											<th>Обязательный</th>
+											<th>Описание</th>
+										</tr>
+										<tr>
+											<td>api_token</td>
+											<td>string</td>
+											<td>да</td>
+											<td>Ключ доступа</td>
+										</tr>
+										<tr>
+											<td>lap_receive</td>
+											<td>bool</td>
+											<td>нет</td>
+											<td>Принимает значение 1 – если есть необходимость наложить на возвращаемый результат фильтр по признаку «Доступен прием писем и посылок», иначе – 0.</td>
+										</tr>
+										<tr>
+											<td>lap_take</td>
+											<td>bool</td>
+											<td>нет</td>
+											<td>Принимает значение 1 – если есть необходимость наложить на возвращаемый результат фильтр по признаку «Доступна выдача писем и посылок», иначе – 0</td>
+										</tr>
+										<tr>
+											<td>cd_available</td>
+											<td>bool</td>
+											<td>нет</td>
+											<td>Принимает значение 1 – если есть необходимость наложить на возвращаемый результат фильтр по признаку «Доступна курьерская доставка», иначе – 0</td>
+										</tr>
+									</table>
+								</div>
+								<div class="method_table_block">
+									<h3>Выходные параметры:</h3>
+									<table class="table method_table">
+										<tr>
+											<th>Параметр</th>
+											<th>Тип</th>
+											<th>Обязательный</th>
+											<th>Описание</th>
+										</tr>
+										<tr>
+											<td>status</td>
+											<td>bool</td>
+											<td>да</td>
+											<td>Принимает значение 1, если запрос выполнился без ошибок, иначе – 0</td>
+										</tr>
+										<tr>
+											<td>err</td>
+											<td>string</td>
+											<td>да</td>
+											<td>Содержит текст ошибки, если таковая возникла при выполнении запроса.</td>
+										</tr>
+										<tr>
+											<td>data</td>
+											<td>ListCitiesData[]</td>
+											<td>да</td>
+											<td>Массив данных</td>
+										</tr>
+									</table>
+								</div>
+								<div class="method_table_block">
+										<h3>ListCitiesData:</h3>
+										<table class="table method_table">
+											<tr>
+												<th>Параметр</th>
+												<th>Тип</th>
+												<th>Описание</th>
+											</tr>
+											<tr>
+												<td>code</td>
+												<td>string</td>
+												<td>Уникальный идентификатор (код) города в базе данных ИС Boxberry</td>
+											</tr>
+											<tr>
+												<td>name</td>
+												<td>string</td>
+												<td>Название города</td>
+											</tr>
+											<tr>
+												<td>lap_receive</td>
+												<td>bool</td>
+												<td>Принимает значение 1 – если в городе доступен прием писем и посылок, иначе – 0</td>
+											</tr>
+											<tr>
+												<td>cd_available</td>
+												<td>bool</td>
+												<td>Принимает значение 1 – если в городе доступен прием писем и посылок, иначе – 0</td>
+											</tr>
+										</table>
+									</div>
+							</div>
+							<div class="mathod_tabs_block">
+								<ul class="tabs">
+									<li><a href="#">JSON</a></li>
+									<li><a href="#">SOAP   (1С Интеграция)</a></li>
+								</ul>
+								<div class="panes">
+									<div class="pane">
+										<div class="j_block_lines">
+											<div class="j_block_line"><div class="j_name">Ваш API token: </div><div class="j_link"><a href="#">Скопировать</a></div><div class="j_cont">11670.pbpqfccd</div></div>
+											<div class="j_block_line"><div class="j_name">Пример JSON запроса:</div><div class="j_link"><a href="#">Скопировать</a></div><div class="j_cont"><a href="#">https://lk.boxberry.ru/lap.json/?api_token=ABCDEF&method=ListCit</a>></div></div>
+										</div>
+										<div class="code_block">
+											<h3>Выходные параметры:</h3>
+											<code>
+												<p>{</p>
+												<p>“status”: 1,</p>
+												<p>>“err”: “”,</p>
+												<p>“data”: [</p>
+												<p>{</p>
+												<p>“code”: “02948”,</p>
+												<p>“name”: “Алапаевск”,</p>
+												<p>“lap_receive”: 1,</p>
+												<p>“lap_take”: 0,</p>
+												<p>“cd_available”: 1</p>
+												<p>}, {</p>
+												<p>“code”: “89342”,</p>
+												<p>“name”: “Абинск”,</p>
+												<p>“lap_receive”: 1,</p>
+												<p>“lap_take ”: 1,</p>
+												<p>“cd_available”: 0</p>
+												<p>}</p>
+												<p>…</p>
+												<p>]</p>
+												<p>}</p>
+												Метод
+											</code>
+										</div>
+									</div>
+									<div class="tabs_block_in">
+										<ul class="tabs">
+											<li><a href="#">PHP</a></li>
+											<li><a href="#">Pyton</a></li>
+											<li><a href="#">Ruby</a></li>
+											<li><a href="#">1 C</a></li>
+										</ul>
+										<div class="panes">
+											<div class="pane">
+												<a href="#">Скопировать</a>
+												<code>
+														<p><?php</p>
+
+														<p>&nbsp;&nbsp;&nbsp;&nbsp;$url='http://test-ecom.boxberry.ru/json.php?token=11670.pbpqfccd&method=ParselSend&ImIds=XXXXXX,XXXXXX';</p>
+														<p>// XXXXXX - код отслеживания заказа:</p>
+														<p>&nbsp;&nbsp;&nbsp;&nbsp;$handle = fopen($url, "rb");</p>
+														<p>&nbsp;&nbsp;&nbsp;&nbsp;$contents = stream_get_contents($handle);</p>
+														<p>&nbsp;&nbsp;&nbsp;&nbsp;fclose($handle);</p>
+														<p>&nbsp;&nbsp;&nbsp;&nbsp;$data=json_decode($contents,true);</p>
+														<p>&nbsp;&nbsp;&nbsp;&nbsp;if(count($data)<=0 or $data['err']){</p>
+															<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// если произошла ошибка и ответ не был получен:</p>
+															<p>&nbsp;&nbsp;&nbsp;&nbsp;echo $data['err'];</p>
+															<p>&nbsp;&nbsp;&nbsp;&nbsp;}else{</p>
+																<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// все отлично, ответ получен, теперь в массиве $data:</p>
+																<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/*</p>
+																<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$data=array(</p>
+																<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'id' => Номер акта,</p>
+																<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'label' => http://,</p>
+																<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'sticker' => http:// , // Ссылка на этикетки.</p>
+																<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;);</p>
+																<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</p>
+																<p>>&nbsp;&nbsp;}</p>
+																<p>&nbsp;&nbsp;?></p>
+														
+												</code>
+												<a href="#">Скопировать</a>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -105,7 +259,7 @@
 		<div class="mobile-button"><span></span></div>
 		<div class="mobile-button-plus"><span></span></div>
 		<div class="header_user">
-			<div class="header_user_opener">p
+			<div class="header_user_opener">
 				<div class="header_user_ava ava-circ"><img src="img/ava1.jpg" alt=""/></div>
 				<div class="header_user_name">ООО Центр современных технологий</div>
 				<i class="icon-arr-down"></i>

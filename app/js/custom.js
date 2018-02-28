@@ -76,6 +76,7 @@ $(function(){
     	}
 	});
 
+
 	//
 	$(document).on('click', function(event) {
 	    if ($(event.target).closest(".header_user").length === 0) {
@@ -224,9 +225,13 @@ $(function(){
 	//
 	svg4everybody({});
 
-	$('.quest_accord_title').on('click', function(){
-		$(this).parent().toggleClass('active');
-	});
+
+
+	$('.quest_accord_title').click(function(){
+		$(this).parent().children().toggleClass('active');
+		$(this).parent().children('div.quest_accord_in').slideToggle(300);
+		return false;
+	   });
 
 });
 

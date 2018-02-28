@@ -52,30 +52,167 @@
 		<div class="wrapper">
 			<div class="widg">
 				<div class="infocenter_cont infocenter_cont_mob">
-					<div class="back_link"><i class="icon-arr-down"></i><a href="#">Все сценарии</a></div>
-					<div class="one_cont_block">
-						<h1>Чтобы отправить посылку:</h1>
-						<div class="one_script_items">
-							<div class="one_script_item">
-								<h2>Шаг №1: Создать посылку методом&nbsp;—ParselCreate</h2>
-								<div class="one_script_txt"><p>Данный метод позволяет создать / обновить посылку в Личном кабинете. В метод необходимо передать кодированный в JSON массив методом POST. Строение и описание массива смотрите ниже. В случае успешного завершения метод вернет JSON кодированный массив содержащий присвоенный идентификатор посылки (трекинг-код), ссылку на файл печати этикеток. Кодировка передаваемых и полученых данных строго UTF8!</p></div>
-								<div class="full_link"><a href="#">Полное описание метода</a></div>
-							</div>
-							<div class="one_script_item">
-								<h2>Шаг №2: Получить ссылку&nbsp;на файл этикеток—ParselCheck</h2>
-								<div class="one_script_txt">
-									<p>Позволяет получить ссылку на файл печати этикеток, список штрих-кодов коробок в посылке через запятую (,), список штрих-кодов выгруженных коробок в посылке через запятую (,) . Обязательно наличие параметра (код отслеживания заказа).</p>
-									<p>Внимание! сервис работает только с посылками созданными в api.boxberry.de</p>
+					<div class="infocenter_top">
+						<h1>Инфоцентр «Boxberry»</h1>
+						<ul class="tabs">
+							<li><a href="#">Контакты boxberry</a></li>
+							<li><a href="#">Частые вопросы</a></li>
+							<li class="active"><a href="#">Интеграция</a></li>
+							<li><a href="#">Новости<span>1</span></a></li>
+							<li><a href="#">Уведомления<span>10</span></a></li>
+						</ul>
+						<div class="tabs_sel"><select><option>Контакты boxberry</option><option>Частые вопросы</option><option>Интеграция</option><option>Новости</option><option>Уведомления</option></select></div>
+							<ul class="tabs modules_tabs">
+								<li><a href="#">Сценарий</a></li>
+								<li><a href="#">Методы API</a></li>
+								<li class="active"><a href="#">Настройка виджетов</a></li>
+								<li><a href="#">Модули для CSM</a></li>
+							</ul>
+						<div class="modules_tabs_sel"><select><option>Сценарий</option><option>Методы API</option><option>Настройка виджетов</option><option>Модули для CSM</option></select></div>
+					</div>
+						<div class="cms_block_cont">
+						<div class="insr_block">
+							<div class="insr_block_line"><div class="insr_title"><span>Инструкцию по настройке виджета</span></div><div class="insr_link"><a href="#">Перейти к инструкции</a></div></div>
+							<div class="insr_block_line"><div class="insr_title"><span>Ключ интеграции: </span> NDAYXkCqf4dPRxGlSlyDjw==</div><div class="insr_link"><a href="#">Скопировать</a></div></div>
+						</div>
+						<div class="block_itabs widg_item">
+							<ul class="widg_tabs">
+								<li><a href="#">Скрывать ПВ</a></li>
+								<li><a href="#">Расчеты</a></li>
+							</ul>
+							<div class="widg_panes">
+								<div class="widg_pane">
+
 								</div>
-								<div class="full_link"><a href="#">Полное описание метода</a></div>
-							</div>
-							<div class="one_script_item">
-								<h2>Шаг №3: Соформировать акт&nbsp;—ParselSend</h2>
-								<div class="one_script_txt">
-									<p>Формирует акт передачи посылок в boxberry. Обязательно наличие параметра (строки содержащей коды отслеживания заказов).</p>
-									<p>Внимание! сервис работает только с посылками созданными через API ЛК</p>
+								<div class="widg_pane">
+									<div class="calc_block">
+										<div class="calc_cols">
+											<div class="calc_col">
+												<h2>Для примера</h2>
+												<div class="c_options_table">
+													<div class="tr" >
+														<div class="td td-name "><div class="td-hid">Объявленная стоимость:</div></div>
+														<div class="td td-num ">1025.90</div>
+													</div>
+													<div  class="tr">
+														<div class="td td-name"><div class="td-hid">Сумма к оплате:</div></div>
+														<div class="td td-num">3030.00</div>
+													</div>
+													<div  class="tr">
+														<div class="td td-name"><div class="td-hid">Расчет стоимости доставки по тарифам:</div></div>
+														<div class="td td-num">232.40</div>
+													</div>
+													<div  class="tr">
+														<div class="td td-name"><div class="td-hid">Стоимость с учетом настроек для 1 диапазо</div></div>
+														<div class="td td-num">1025.90</div>
+													</div>
+													<div  class="tr">
+														<div class="td vtd-name"><div class="td-hid">Стоимость с учетом настроек для 2 диапазо</div></div>
+														<div class="td td-num">1025.90</div>
+													</div>
+												</div>
+											</div>
+											<div class="calc_col">
+												<h2>Опции</h2>
+												<div class="options1_block">
+													<div class="check_blocks">
+														<div class="check_block"><label><input type="checkbox"/><span>Скрыть срок доставки</span></label></div>
+														<div class="check_block"><label><input type="checkbox"/><span>Включить настройки расчета</span></label></div>
+													</div>
+													<div class="days_block">
+														<div class="days_block_txt">Укажите количество дней, которое необходимо добавить к основному сроку доставки Boxberry</div>
+														<div class="day_input"><input type="text" class="t-inp" placeholder="0"/></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="calc_cols">
+											<div class="calc_col">
+												<h2>Округление до</h2>
+												<div class="check_blocks">
+													<div class="check_block"><label><input type="checkbox" name="r1"/><span>Не округлять</span></label></div>
+													<div class="check_block"><label><input type="checkbox" name="r1"/><span>До рублей</span></label></div>
+													<div class="check_block"><label><input type="checkbox" name="r1"/><span>До десяти рублей</span></label></div>
+													<div class="check_block"><label><input type="checkbox" name="r1"/><span>До сотни рублей</span></label></div>
+												</div>
+											</div>
+											<div class="calc_col">
+												<h2>Округлить как</h2>
+												<div class="radios_block">
+													<div class="radio_block"><label><input type="radio" name="r2"/><span>Округление математическое</span></label></div>
+													<div class="radio_block"><label><input type="radio" name="r2"/><span>Округление в большую сторону</span></label></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="calc_block">
+										<h2>Стоимость посылок</h2>
+										<div class="calc_cols">
+											<div class="calc_col">
+												<h3>Диапазон 1</h3>
+												<div class="range_blocks">
+													<div class="range_block">
+														<div class="range_input"><input="type" class="t-inp" placeholder="От 0 до"/></div>
+														<div class="radio_block"><label><input type="radio" name="r3"/><span>По тарифам Boxberry с учетом настроек</span></label></div>
+													</div>
+													<div class="range_block">
+														<div class="range_input"><input="type" class="t-inp" placeholder=""/></div>
+														<div class="radio_block"><label><input type="radio" name="r3"/><span>Фиксированная</span></label></div>
+													</div>
+												</div>
+											</div>
+											<div class="calc_col">
+												<h3>Диапазон 1</h3>
+												<div class="range_blocks">
+													<div class="range_block">
+														<div class="range_input"><input="type" class="t-inp" placeholder=""/></div>
+														<div class="radio_block"><label><input type="radio" name="r3"/><span>По тарифам Boxberry с учетом настроек</span></label></div>
+													</div>
+													<div class="range_block">
+														<div class="range_input"><input="type" class="t-inp" placeholder="От 0 до"/></div>
+														<div class="radio_block"><label><input type="radio" name="r3"/><span>Фиксированная</span></label></div>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>
+									<div class="calc_block">
+											<div class="calc_col">
+												<h2>Надбавки</h2>
+												<div class="sur_block">
+													<div class="form_row">
+														<div class="cover-inp"><label>Вес (гр)</label><input type="text" class="t-inp" value=""></div>
+													</div>
+													<div class="form_row">
+														<div class="cover-inp"><label>Процент от тарифа Boxberry (%)</label><input type="text" class="t-inp" value=""></div>
+													</div>
+													<div class="form_row">
+														<div class="cover-inp"><label>Процент от объявленной стоимости (%)</label><input type="text" class="t-inp" value=""></div>
+													</div>
+													<div class="form_row">
+														<div class="cover-inp"><label>Процент от суммы к оплате (%)</label><input type="text" class="t-inp" value=""></div>
+													</div>
+													<div class="form_row">
+														<div class="cover-inp"><label>Фиксированная сумма</label><input type="text" class="t-inp" value=""></div>
+													</div>
+													<input type="submit" class="btn" value="Сохранить изменения"/>
+												</div>
+											</div>
+											<div class="calc_col">
+												<h2>Опции</h2>
+												<div class="min_max_block">
+													<div class="check_block"><label><input type="checkbox"/><span>Минимум</span></label></div>
+													<input type="text" class="t-inp" placeholder=""/>
+												</div>
+												<div class="min_max_block">
+													<div class="check_block"><label><input type="checkbox"/><span>Максимум</span></label></div>
+													<input type="text" class="t-inp" placeholder=""/>
+												</div>
+											</div>
+									</div>
+
 								</div>
-								<div class="full_link"><a href="#">Полное описание метода</a></div>
 							</div>
 						</div>
 					</div>
@@ -91,9 +228,9 @@
 		<div class="mobile-button"><span></span></div>
 		<div class="mobile-button-plus"><span></span></div>
 		<div class="header_user">
-			<div class="header_user_opener">p
+			<div class="header_user_opener">
 				<div class="header_user_ava ava-circ"><img src="img/ava1.jpg" alt=""/></div>
-				<!--<div class="header_user_name">ООО Центр современных технологий</div>-->
+				<div class="header_user_name">ООО Центр современных технологий</div>
 				<i class="icon-arr-down"></i>
 			</div>
 			<div class="header_user_drop">
